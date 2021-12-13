@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Kirang Haerang', cursive;
+}
+
+section {
+    display: none;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+section.active {
+    display: flex;
+}
+
+.start {
+    background-image: url("./assets/images/start.webp");
+}
+
+.start h1 {
+    font-size: 100px;
+}
+
+section .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.start button {
+    background-color: yellowgreen;
+    border: 0;
+    margin-top: 20px;
+    font-size: 40px;
+    border-radius: 7px;
+    width :300px;
+    height: 80px;
+    cursor: pointer;
+}
+
+.solution h1 {
+    font-size: 70px;
+    text-align: center;
+}
+
+.solution p {
+    font-size: 30px;
+}
+
+.solution1 {
+    background-image: url("./assets/images/solution1.jpeg");
+}
+
+.solution2 {
+    background-image: url("./assets/images/soltion2.png");
+}
+
+.solution3 {
+    background-image: url("./assets/images/solution3.webp");
+}
+
+.solution4 {
+    background-image: url("./assets/images/solution4.png");
+}
+
+.solution5 {
+    background-image: url("./assets/images/solution5.png");
+}
+
+.solution6 {
+    background-image: url("./assets/images/solution6.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-contents {
+    margin-top: 30px;
+    width: 400px;
+    position: relative;
+}
+
+.img-contents img {
+    width: 100%;
+}
+
+.img-contents .img2 {
+    position: absolute;
+    width: 40px;
+    top: 282px;
+    left: 0;
+}
+
+.img-contents .img3 {
+    position: absolute;
+    width: 80px;
+    top: 304px;
+    left: 0;
+}
+
+.solution2 .contents ul {
+    background-color: darkred;
+}
+
+.solution3 .contents ul {
+    background-color: darkgreen;
+}
+
+.contents ul {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+}
+
+.contents input {
+    width: 280px;
+    height: 50px;
+}
+
+.contents button {
+    height: 52px;
+    width: 100px;
+    background-color: olivedrab;
+    color: #fff;
+    font-size: 20px;
+    border: 0;
+    cursor: pointer;
+}
+
+.face-contents img {
+    width: 50px;
+}
+
+.face-contents {
+    margin-top: 30px;
+    width: 400px;
+    position: relative;
+}
+
+.face-img-contents {
+    background-color: pink;
+    display: flex;
+    align-items: center;
+}
+
+.solution5 {
+    color: #fff;
+}
+
+.solution ul {
+    list-style: none;
+}
