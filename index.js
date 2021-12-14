@@ -20,7 +20,7 @@ img2.addEventListener('click', () => {
 const solution2Button = document.querySelector('.solution2-button');
 solution2Button.addEventListener('click', () => {
     const solution = document.querySelector('.solution2-input');
-    if (solution.value === '강아지,카페라떼,라라랜드,긴머리,PO,연상,치킨,맥주') {
+    if (solution.value === '강아지,카페라떼,라라랜드,긴머리,PO') {
         const solution2 = document.querySelector('#solution2');
         const solution3 = document.querySelector('#solution3');
         solution3.classList.add('active');
@@ -33,7 +33,7 @@ solution2Button.addEventListener('click', () => {
 const solution3Button = document.querySelector('.solution3-button');
 solution3Button.addEventListener('click', () => {
     const solution = document.querySelector('.solution3-input');
-    if (solution.value === '연하,스타벅스,요가,피자,조인성,케익,와인,버스') {
+    if (solution.value === '연하,스타벅스,요가,피자,조인성') {
         const solution3 = document.querySelector('#solution3');
         const solution4 = document.querySelector('#solution4');
         solution4.classList.add('active');
@@ -60,7 +60,7 @@ solution4Button.addEventListener('click', () => {
 const solution5Button = document.querySelector('.solution5-button');
 solution5Button.addEventListener('click', () => {
     const solution = document.querySelector('.solution5-input');
-    if (solution.value === '9층,페스티벌,뱀,장미,섹시한 남자,프랑스어,베트남 음식,유럽') {
+    if (solution.value === '9층,페스티벌,뱀,장미,섹시한 남자') {
         const solution5 = document.querySelector('#solution5');
         const solution6 = document.querySelector('#solution6');
         solution6.classList.add('active');
